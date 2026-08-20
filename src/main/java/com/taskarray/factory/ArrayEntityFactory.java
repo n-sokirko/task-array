@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface ArrayEntityFactory {
 
-  AbstractNumericArray createArrayEntity(List<String> tokens) throws InvalidArrayDataException;
+  AbstractNumericArray createArrayEntity(List<String> tokens, String name) throws InvalidArrayDataException;
 }
